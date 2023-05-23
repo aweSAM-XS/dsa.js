@@ -13,4 +13,5 @@ function capitaliseWords(str) {
     return result;
 }
 
+console.log(capitaliseWords(123));
 module.exports = capitaliseWords

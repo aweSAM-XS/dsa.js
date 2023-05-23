@@ -18,7 +18,6 @@ const mostCommon = (value) => {
 	}
   
 	return common;
-  };
+};
   
-  console.log(mostCommon('Earlier'));
-  
+module.exports = mostCommon  
