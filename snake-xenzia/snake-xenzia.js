@@ -1,4 +1,15 @@
 function snakeXenzia(size) {
+    // console.time('start');
+    // const matrix = [];
+
+    // for (let i = 0; i < size; i++) {
+    //     matrix[i] = [];
+    //     for (let j = 0; j < size; j++) {
+    //         matrix[i][j] = 0;
+    //     }
+    // }
+    // console.timeEnd('start')
+
     const matrix = Array(size)
         .fill(0)
         .map(() => Array(size).fill(0));
@@ -66,8 +77,8 @@ function prettier(matrix) {
     }
 }
 
-const snake = snakeXenzia(20);
+const snake = snakeXenzia(500);
 // console.log(snake);
-prettier(snake);
+// prettier(snake);
 
 module.exports = { snakeXenzia, prettier };
